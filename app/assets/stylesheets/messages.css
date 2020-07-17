@@ -1,0 +1,48 @@
+/* wrapper */
+.wrapper{
+  display: flex;
+}
+
+/* サイドバー */
+.side_bar{
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+}
+
+.side_top{
+  height: 100px;
+  padding: 0 20px;
+}
+
+.side_bottom{
+  background-color: #2f3e51;
+  width: auto;
+  height: calc(100vh - 100px);
+  padding: 0 20px;
+}
+
+/* メインチャット欄 */
+.main_chat{
+  width: calc(100% - 300px);
+}
+
+.main_top{
+  background-color: #ffffff;
+  height: 100px;
+  padding: 0 40px;
+}
+
+.main_middle{
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
+  padding: 46px 40px 0;
+}
+
+.main_bottom{
+  background-color: #DDDDDD;
+  height: 90px;
+  padding: 20px 40px;
+}
+
+

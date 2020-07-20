@@ -10,37 +10,7 @@
   </div>
 
   <div class = "main_middle">
-    <div class = "messages">
-      <div class = "message_info">
-        <div class = "info_name">
-          Tom
-        </div>
-        <div class = "info_date">
-          2020/07/20 (Mon) 11:29:15
-        </div>
-      </div>
-      <div class = "message_text">
-        <div class = "text_post">
-          おはよう
-        </div>
-      </div>
-    </div>
-
-    <div class = "messages">
-      <div class = "message_info">
-        <div class = "info_name">
-          Jim
-        </div>
-        <div class = "info_date">
-          2020/07/20 (Mon) 11:35:15
-        </div>
-      </div>
-      <div class = "message_text">
-        <div class = "text_post">
-          おは
-        </div>
-      </div>
-    </div>
+    <%= render partial: 'message', collection: @messages%>
   </div>
 
 

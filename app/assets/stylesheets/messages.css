@@ -13,13 +13,48 @@
 .side_top{
   height: 100px;
   padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user_name a {
+  color: #FAFAFA;
+  font-size: 16px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.create_chat{
+  font-size: 10px;
+}
+
+.create_chat a {
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
 }
 
 .side_bottom{
   background-color: #2f3e51;
-  width: auto;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow-y: scroll;
+}
+
+.side_bottom::-webkit-scrollbar{ 
+  display: none;
+}
+
+.room{
+  padding: 20px 0 40px;
+}
+
+.room_name a {
+  text-decoration: none;
+  color: white;
 }
 
 /* メインチャット欄 */

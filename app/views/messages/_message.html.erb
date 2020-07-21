@@ -1,0 +1,15 @@
+    <div class = "messages">
+      <div class = "message_info">
+        <div class = "info_name">
+          <%= message.user.name%>
+        </div>
+        <div class = "info_date">
+          <%=  l message.created_at%>
+        </div>
+      </div>
+      <div class = "message_text">
+        <div class = "text_post">
+          <%= message.content%>
+        </div>
+      </div>
+    </div>
